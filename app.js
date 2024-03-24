@@ -3,13 +3,20 @@ const path = require('path');
 
 const app = express();
 
-app.use('/static', express.static(path.join(__dirname, 'public')));
+// Serve static files from the 'public' directory
+app.use(express.static(path.join(__dirname, 'public', )));
 
+app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname, 'public', 'theme-particle.html'));
+});
+
+// Handle 404 errors
 app.use((req, res) => {
-    res.status(404);
-    res.send('<h1> Error 404: resource not found </h1>');
-})
+    res.status(404).send('<h1>Error 404: Resource not found</h1>');
+});
 
-app.listen(3000, () => {
-    console.log("app listening on port 3000")
-})
+// Start the server
+const port = process.env.PORT || 3000;
+app.listen(port, () => {
+    console.log(`App listening on port ${port}`);
+});
