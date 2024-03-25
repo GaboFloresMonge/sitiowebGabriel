@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/4ba7a778-d131-4ab2-b73b-0fb6affe0a21/resourceGroups/projects/providers/Microsoft.Web/sites/Gabrielwebsite",
+    "appService.deploySubpath": "."
+}
