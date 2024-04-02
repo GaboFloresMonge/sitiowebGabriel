@@ -4,10 +4,10 @@ const path = require('path');
 const app = express();
 
 // Serve static files from the 'public' directory
-app.use(express.static(path.join(__dirname, 'public', )));
+app.use(express.static(path.join(__dirname, 'theme-particle.html', )));
 
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'public', 'theme-particle.html'));
+    res.sendFile(path.join(__dirname, 'theme-particle.html'));
 });
 
 // Handle 404 errors
