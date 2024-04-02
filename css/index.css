@@ -820,12 +820,12 @@ body {
     align-items: center;
     justify-content: center;
     transition: all .4s ease;
-    width: 83%;
+    width: 85%;
     border-radius: 10px;
     background: #2858f6;
 }
 
-.php-progress {
+.azure-progress {
     position: absolute;
     top: 10%;
     left: 1%;
@@ -833,7 +833,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 85%;
+    width: 95%;
     border-radius: 10px;
     background: #2858f6;
     transition: all .4s ease;
@@ -848,7 +848,7 @@ body {
     align-items: center;
     justify-content: center;
     transition: all .4s ease;
-    width: 94%;
+    width: 60%;
     border-radius: 10px;
     background: #2858f6;
 }
@@ -861,7 +861,77 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 84%;
+    width: 65%;
+    border-radius: 10px;
+    transition: all .4s ease;
+    background: #2858f6;
+}
+
+.php-progress {
+    position: absolute;
+    top: 10%;
+    left: 1%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    border-radius: 10px;
+    transition: all .4s ease;
+    background: #2858f6;
+}
+
+.webserver-progress {
+    position: absolute;
+    top: 10%;
+    left: 1%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 65%;
+    border-radius: 10px;
+    transition: all .4s ease;
+    background: #2858f6;
+}
+
+.github-progress {
+    position: absolute;
+    top: 10%;
+    left: 1%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 85%;
+    border-radius: 10px;
+    transition: all .4s ease;
+    background: #2858f6;
+}
+
+.visualstudio-progress {
+    position: absolute;
+    top: 10%;
+    left: 1%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 85%;
+    border-radius: 10px;
+    transition: all .4s ease;
+    background: #2858f6;
+}
+
+.nodejs-progress {
+    position: absolute;
+    top: 10%;
+    left: 1%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75%;
     border-radius: 10px;
     transition: all .4s ease;
     background: #2858f6;
